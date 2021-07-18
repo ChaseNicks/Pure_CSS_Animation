@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(208, 200, 188);
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    width: 95%;
+}
+
+#laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 3px solid rgb(135, 131, 131);
+    background-color: rgba(14, 14, 14, 0.905);
+    height: 80%;
+    width: 75%;
+    position: sticky;
+    top: 2rem;
+}
+#macbookpro {
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    top: 38.5rem;
+    color: rgb(114, 111, 111);
+}
+
+#screen {
+    height: 90%;
+    width: 96%;
+    background-image: url('background_img.jpeg');
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    height: 2.5%;
+    width: 100%;
+    background-color: rgba(225, 221, 221, 0.782);
+}
+
+img {
+    height: 73%;
+    width: 1%;
+    margin-left: .35rem;
+    margin-bottom: .10rem;
+}
+
+.first {
+    margin-left: .48rem;
+}
+
+.nav-time {
+    position: absolute;
+    right: 1.5rem;
+}
+
+.nav-items {
+    font-size: .6em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: .5rem;
+    height: fit-content;
+    width: fit-content;
+}
