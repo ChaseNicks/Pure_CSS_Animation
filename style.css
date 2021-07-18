@@ -195,12 +195,15 @@ img {
     }
     to {
         transform: skew(50deg);
+        box-shadow: 5px 19px 38px rgba(0,0,0,0.30), 5px 5px 12px rgba(0,0,0,0.22);
     }
     from {
-        transform: skew(50deg)
+        transform: skew(50deg);
+        box-shadow: 5px 19px 38px rgba(0,0,0,0.30), 5px 5px 12px rgba(0,0,0,0.22);
     }
     to {
         transform: skew(-50deg);
+        box-shadow: 5px 19px 38px rgba(0,0,0,0.30), 5px 5px 12px rgba(0,0,0,0.22);
     }
     
 }
@@ -211,12 +214,15 @@ img {
     }
     to {
         transform: skew(-50deg);
+        box-shadow: 5px 19px 38px rgba(0,0,0,0.30), 5px 5px 12px rgba(0,0,0,0.22);
     }
     from {
         transform: skew(-50deg);
+        box-shadow: 5px 19px 38px rgba(0,0,0,0.30), 5px 5px 12px rgba(0,0,0,0.22);
     }
     to {
         transform: skew(50deg);
+        box-shadow: 5px 19px 38px rgba(0,0,0,0.30), 5px 5px 12px rgba(0,0,0,0.22);
     }
     
 }
